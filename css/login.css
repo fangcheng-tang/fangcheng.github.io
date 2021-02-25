@@ -1,0 +1,246 @@
+.cantainer{
+    width: 1200px;
+    min-width: 1200px;
+    margin: 0 auto;
+}
+.header{
+    height: 90px;
+    padding-top: 10px;
+
+}
+.header_lt{
+    float: left;
+}
+.header_lt>p{
+    height: 20px;
+}
+.header_gt{
+    padding: 0 20px;
+    height: 90px;
+    float: left;
+    line-height: 90px;
+    font-size: 26px;
+}
+.main{
+    height: 600px;
+    background: #4ec3ff;
+}
+.main_lt{
+    width: 590px;
+    height: 100%;
+    padding: 0 70px;
+    float: left;
+
+}
+.main_gt{
+    width: 388px;
+    height: 100%;
+    padding: 0 41px;
+    float: left
+}
+.main_gt>.login{
+    width: 340px;
+    height: 412px;
+    margin: 64px 0;
+    background: #fff;
+    padding: 30px 24px;
+    position: relative;
+}
+.login>span{
+    position: absolute;
+    right: 0;
+    top: 0;
+    cursor: pointer;
+}
+.login>h3{
+    width: 100%;
+    height: 20px;
+    line-height: 20px;
+    font-size: 20px;
+    color: #333;
+    margin-bottom: 12px;
+}
+.login>.user,.login>.pass{
+    height: 40px;
+    width: 338px;
+    border: solid 1px #ddd;
+    margin-bottom: 24px;
+}
+.login>.user>i,.login>.pass>i{
+   float: left;
+   padding: 8px 11px 7px 8px;
+   color: #ddd;
+   font-size: 24px;
+}
+.login>.user>input,.login>.pass>input{
+    border: none;
+    width: 285px;
+    line-height: 24px;
+    padding: 8px 5px;
+    float: left;
+    font-size: 14px;
+}
+.login>.three{
+    height: 20px;
+    line-height: 16px;
+    margin-bottom: 10px;
+    color: #666666;
+}
+.login>.three>input{
+    width: 12px;
+    height: 12px;
+    border: solid 1px #ddd;
+    margin: 0px 5px 3px 0;
+    vertical-align: -1px;
+}
+.login>button{
+    width: 340px;
+    height: 40px;
+    background: #409ffb;
+    color: #fff;
+    border: none;
+    outline: none;
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+.login>.forfree{
+    height: 20px;
+    line-height: 20px;
+    margin-bottom: 70px;
+    display: flex;
+    justify-content: space-between;
+}
+.login>.forfree a{
+    color: #000000;
+
+}
+.login>.forfree a:nth-child(1){
+    color: #4ec3ff;
+}
+.login>.order_size{
+    width: 320px;
+    height: 7px;
+    border-bottom: 1px solid #ddd;
+    position: relative;
+    margin: 0 auto;
+    text-align: center;
+}
+.login>.order_size>span{
+    background: #fff;
+    color: rgb(170, 167, 167);
+}
+.login>.order_cont{
+    padding: 15px 12px;
+}
+.login>.order_cont>ul>li{
+    float: left;
+    margin-right: 32px;
+}
+.login>.order_cont>ul>li>a{
+    display: inline-block;
+    width: 26px;
+    height: 26px;
+    border-radius: 50%;
+    background: #d3d3d3;
+    position: relative;
+}
+.login>.order_cont>ul>li>a>i{
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    font-size: 18px;
+    height: 18px;
+    width: 18px;
+    margin:  auto;
+    background: #d3d3d3;
+    color: #fff;
+}
+.login>strong{
+    font-size: 14px;
+}
+.erweima{
+    width: 340px;
+    height: 412px;
+    margin: 64px 0;
+    background: #fff;
+    padding: 30px 24px;
+    display: none;
+    position: relative;
+}
+.erweima>span{
+    position: absolute;
+    right: 0;
+    top: 0;
+    cursor: pointer;
+}
+.erweima>h3{
+    width: 100%;
+    height: 20px;
+    line-height: 20px;
+    font-size: 20px;
+    color: #333;
+}
+.er_img{
+    height: 190px;
+    margin: 50px auto;
+}
+.er_img>p:nth-child(1){
+    margin-left: 80px;
+    float: left;
+    width: 150px;
+    padding: 40px 15px 0 5px;
+}
+.er_img>p:nth-child(1)>img{
+    width: 150px;
+    height: 150px;
+}
+.er_img>p:nth-child(2){
+    float: right;
+    display: none;
+}
+.erweima>p{
+    font-size:16px;
+    text-align: center;
+}
+.erweima>p>a{
+    color: aqua;
+}
+.footer{
+    padding: 30px 0;
+   
+}
+.lianjie{
+    width: 980px;
+    margin: 0 auto;
+    margin-top: 6px;
+    display: flex;
+    justify-content: center;
+}
+.lianjie>li{
+    float: left;
+    color: #666;
+    position: relative;
+}
+.lianjie>li>a{
+    color: #666;
+    padding: 0 4px;
+
+}
+.lianjie>li>span{
+    position: absolute;
+    right: 7px;
+    top: -12px;
+}
+.p1,.p2{
+    margin-top: 6px;
+    color: #666;
+    display: flex;
+    justify-content: center;
+}
+.p1>a{
+    padding: 0 3px;
+    color: #666;
+}
+
